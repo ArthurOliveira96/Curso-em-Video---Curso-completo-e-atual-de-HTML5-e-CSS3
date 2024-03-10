@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* O parametro font-family eh onde colocamos a familia da fonte.
+Ao colocar 3 fontes, o browser usa a primeira que achar (lembrando que monospace significa "qualquer fonte monoespacada que encontrar") */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, white, rgba(243, 4, 4, 0.129));
+}

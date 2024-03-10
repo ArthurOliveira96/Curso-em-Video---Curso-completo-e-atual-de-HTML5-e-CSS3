@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam sozinhas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <!-- A ordem das tags sources importa! -->
+        <source media="(max-width: 750px)" srcset="../../desafios/imagens_d007/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../../desafios/imagens_d007/paisagem-m.png" type="image/png">
+        <img src="../../desafios/imagens_d007/paisagem-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

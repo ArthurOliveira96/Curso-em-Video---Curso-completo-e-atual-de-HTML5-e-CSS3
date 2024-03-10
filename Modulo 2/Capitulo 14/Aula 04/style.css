@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* 
+Medidas absolutas
+cm, mm, px, pt, pc, in
+
+Medidas relativas
+em, ex, rem, vw, vh, %
+
+em: relativo ao tamanho da letra m da fonte do elemento
+ex: relativo a altura-x da fonte do elemento
+vw: relativo da largura da viewport (largura da tela)
+vh: relativo a altura do viewport (altura da tela) 
+
+As medidas oficialmente recomendadas pela W3C sao px e em.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}

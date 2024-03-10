@@ -1,0 +1,19 @@
+Pseudo-classes:
+
+- Uma div eh um espaco "qualquer" no seu site HTML (diferente, por exemplo, do h1, que eh um cabecalho de nivel 1 e portanto, tem uma semantica aplicada).
+
+- Uma pseudo-classe eh uma estilizacao aplicada de acordo com o ESTADO de um elemento - active, hover estilizacao.
+
+- Usamos ":" para estilizar no CSS.
+
+- Exemplo:
+
+div:hover {
+    background-color: yellow;
+}
+
+Todas as divs, quando estiverem em estado HOVER, ficarao com a cor de fundo amarela.
+
+- No CSS div > p atinge toda tag p que eh FILHA de uma tag div
+
+- Mais sobre pseudo-classes: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes

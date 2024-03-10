@@ -1,0 +1,7 @@
+Antigamente, no HTML4, usava-se basicamente div (box-level) e span (inline-level) para agrupar tags no desenvolvimento de um site, colocando id em cada tag para dar um sentido semantico ao codigo.
+
+No HTML5, por outro lado, tem uma serie de tags semanticas, cujo nome ja tem um significado. Exemplos abaixo:
+
+header, main, footer, nav, section, article, aside
+
+Alias, nao ha restricao de qual tag deve ir dentro de outra. Isso cabe ao desenvolvedor decidir.

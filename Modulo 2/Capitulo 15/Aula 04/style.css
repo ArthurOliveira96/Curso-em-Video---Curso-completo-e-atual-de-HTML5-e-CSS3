@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Pseudo-classe para quando clicamos e seguramos o elemento */
+a:active {
+    font-weight: 900;
+}
+
+/* O pseudo-elemento after coloca texto DEPOIS de todas as tags a */
+a::after {
+    content: ' <<< [link]';
+    /* text-decoration: none;
+    font-weight: normal;
+    color: darkgray; */
+}
+
+/* O pseudo-elemento before coloca text ANTES de tas as tags a */
+a::before {
+    content: '>>> ';
+}
+

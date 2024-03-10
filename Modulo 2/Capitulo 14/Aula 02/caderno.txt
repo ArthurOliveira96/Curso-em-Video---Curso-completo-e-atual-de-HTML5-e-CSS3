@@ -1,0 +1,10 @@
+A altura da letra x eh um parametro que define a altura base de todas as letras minusculas de uma fonte. Essa altura eh um parametro bem conhecido, chamado de altura-x.
+
+A serifa cria uma linha imaginaria sem que a gente perceba, mas facilita na hora de ler.
+
+Categoria de fontes:
+Serifadas
+Sans serif (nao serifadas - indicadas para textos em sites com muito conteudo)
+Monoespacada
+Handwriting
+Display

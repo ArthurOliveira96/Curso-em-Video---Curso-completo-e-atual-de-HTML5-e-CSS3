@@ -1,0 +1,10 @@
+Para criar paletas de cores podemos ir ao site colors.adobe.com
+    - Na aba "Extrair tema" podemos inserir uma imagem e o Adobe vai criar uma paleta a partir dela
+    - Na aba "Extrair gradiente" podemos inserir uma imagem e o Adobe vai criar um gradiente a partir dela
+    - Na aba "Explorar" podemos escolher entre varias paletas de cores, inclusive as mais usadas
+
+Outra ferramenta que podemos usar é o paletton.com
+    - Em "Examples" podemos ver uma simulação de um site com a paleta de cores que quisermos
+
+Outra opção é o coolors.com
+    - Nele podemos escolher paletas aleatórias, mas se gostarmos de uma cor podemos trava-la e o algoritmo vai sugerir cores que encaixem com as cores travadas

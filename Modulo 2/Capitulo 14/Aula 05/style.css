@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    font-style: italic; /* italic, normal, oblique */
+    font-weight: normal; /* normal, lighter, bold, bolder, 100 a 900 - variacao de pesos (negritos) */
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* Para fazer as 4 declaracoes acima em uma so, usamos um atalho (shorhand), veja abaixo */
+/* font-style, font-weight, font-size, font-family */
+h1, h2 {
+    font: normal, 900, 1.2em, Helvetica;
+    text-decoration: underline;
+}

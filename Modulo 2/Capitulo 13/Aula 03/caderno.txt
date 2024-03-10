@@ -1,0 +1,13 @@
+A escolha da paleta de cores do site/marca sempre parte de uma cor principal - que deve ter relação com a ideia que o site/marca quer transmitir
+
+Geralmente, uma paleta de cores tem de 3 a 5 cores no máximo (desconsiderando branco e preto)
+
+Outra forma de escolher a paleta é numa situação onde o cliente já tem um logo definido - neste caso devemos identificar a cor primária do logo e definir a paleta a partir dessa cor
+
+Cores complementares: cores que tem mais contraste entre elas; cores opostas do circulo cromático
+
+Cores análogas: cores sem contraste entre elas; cores diretamente adjacentes do circulo cromático
+
+Cores análogas e uma complementar: forma uma paleta de 4 cores, 3 análogas e sem contraste entre si e 1 complementar contrastando com as outras 3
+
+Monocromia: alteração de saturação e luminosidade de uma cor principal

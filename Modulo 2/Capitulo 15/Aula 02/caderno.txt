@@ -1,0 +1,7 @@
+O valor do id nao deve se repetir. Para casos que a formatacao deve se repetir, usamos o class.
+
+Podemos colocar varios valores em class mas separados por virgulas:
+
+class = "estilo1 estilo2"
+
+e a tag pode ter classes e id ao mesmo tempo, mas a estilizacao do id vai se sobrepor a estilizacao da classe

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 
+
+No Google Chrome, no Dev Tools, conseguimos ver e editar a estilizacao da pagina web. Podemos passar o cursor sobre a margin, border, padding e content de toda tag e a ferramenta vai destacar para a gente a respectiva regiao - se houver um '-' significa que nao ha. Para que possamos editar a estilizacao, o Dev Tools obviamente nos mostra o CSS aplicado em cada elemento. No entanto, muitos estilos que vamos ver nao foram colocados por nos, mas sim pelo USER AGENT, i.e, pelo BROWSER. 
+
+Na aula, analisamos as tags 'h1', 'p' e 'a'.
+
+- De cara, vemos que a tag h1, por padrao, ocupa sempre uma linha nova e a tag seguinte sempre comeca numa nova linha - comportamento padrao de tags box-level.
+
+- Vemos tambem que o USER AGENT aplica alguns estilos no h1: margin top, margin bottom, font size e font wight por exemplo
+
+- Vemos tambem que a tag 'a' se inicia ao longo do conteudo da tag p, sem quebrar a linha, e apos o fim da tag 'a' o conteudo da tag p continua tambem sem quebras
+
+- Ao variar alguns estilos da tag 'a' vemos que o conteudo da tag p envolve o conteudo da tag 'a', sem quebrar linhas
+
+- Brincando com padding e border, vi que ao fazer com o que a tag 'a' se sobreponha a tag 'h1' a sobreposicao ocorre normalmente. Mas manipular o 'h1' para se sobrepor a tag 'a' nao acontece (a tag 'a' eh mandada para baixo). Isso deve ocorrer pois o 'h1' eh do tipo box-level, enquanto a tag 'a' eh inline-level.
+
+*/
+
+h1 {
+    background-color: lightgray;
+    height: 50px;
+    width: 400px;
+
+    /* Aqui vamos eliminas as 3 linhas e sobstituir por um shorthand */
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+
+    /* Aqui tambem temos um shorhand na ordem top, right, bottom e left */
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+a {
+    /* Aqui, ja usamos o shorthand */
+    border: 10px solid darkred;
+
+    /* Aqui tambem temos um shorhand na ordem top, right, bottom e left */
+    padding: 1em;
+}

@@ -1,0 +1,1 @@
+Para alinhar o texto dentro de uma tag usamos text-align (justify, center, left, right)

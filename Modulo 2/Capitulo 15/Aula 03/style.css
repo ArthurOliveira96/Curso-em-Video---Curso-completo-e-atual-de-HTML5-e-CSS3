@@ -1,0 +1,27 @@
+div.quadrado {
+    background-color: lightgray;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.quadrado:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: darkred;
+    color: white;
+}

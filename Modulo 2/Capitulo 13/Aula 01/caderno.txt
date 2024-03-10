@@ -1,0 +1,10 @@
+azul: competencia, sabedoria, calma, confianca, profissionalismo, integridade, seguranca, inteligencia
+vermelho: amor, emocao, energia, raiva, perigo (comida, moda, entretenimento, servicos de emergencia, servicos de saude)
+amarelo: felicidade
+marrom: robustez, estabilidade, amizade
+verde: saúde, natureza, dinheiro, sorte, inveja
+roxo: criatividade, poder, sabedoria, inovação
+rosa: amor, romance, sinceridade, cuidado, doce
+
+
+PS: devemos tomar cuidado com o fundo preto e texto branco, pois isso atribui à pagina muito contraste e quando há muito conteúdo na página isso pode incomodar. Geralmente os desenvolvedores usam isso apenas para casos onde há pouco conteúdo para ser consumido, como por exemplo a landing page do Netflix.

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags em HTML5</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        nav > a:hover {
+            color: red;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px 5px;
+        }
+
+        article > aside {
+            background-color: darkgray;
+            color: white;
+        }
+
+        footer {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolor eaque sed facilis aperiam voluptatem quidem, suscipit ab similique? Aut quam illum rem natus facilis porro labore, beatae rerum voluptatem omnis iure optio autem magnam similique atque asperiores neque voluptates quas perspiciatis. Ipsa repudiandae exercitationem dolorum natus, autem eius. Quaerat nesciunt laborum corporis voluptate in nam atque numquam quasi, pariatur, soluta quos molestiae obcaecati eligendi eum dolor consectetur nisi dicta, iure sunt. Fuga ducimus adipisci reiciendis soluta atque eos pariatur dicta praesentium cupiditate. Magni accusamus quisquam, sunt eos dolores voluptate quos harum exercitationem, optio officia incidunt. Quos eaque aliquid totam.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva.</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Esporte, politica e tecnologia</h2>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Video.</p>
+    </footer>
+</body>
+</html>

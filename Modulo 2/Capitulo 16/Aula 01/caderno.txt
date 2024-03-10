@@ -1,0 +1,24 @@
+Modelo de caixas, ou, em ingles, box-model
+
+No HTML, toda tag se comporta como uma "caixa", sendo que todas as "caixas" podem estar aninhadas, i.e, uma dentro da outra.
+
+Damos o nome de "caixa", na realidade, porque toda tag ocupa um espaço bem definido com altura e largura determinados, entre outras propriedades como padding, border, outline e margin.
+
+Toda tag, portanto, tem:
+
+height (altura)
+width  (largura)
+padding (distancia entre o conteudo e a borda - espaço interno)
+border (borda - dentro do elemento)
+outline (contorno - fora do elemento)
+margin (distancia entre a borda e outra tag externa - espaço externo)
+
+Alem disso, existem 2 tipos de caixa: box-level e inline-level.
+
+box-level: sempre ocupa 100% do viewport (largura total da tela), portanto para existir precisa se iniciar uma linha nova e a proixma tag precisa iniciar na linha seguinte.
+
+inline-level: ocupa apenas o espaco necessario (pelo conteudo), portanto ele nao quebra linhas, i.e, na mesma linha ele continua o conteudo da tag anterior e tambem na mesma linha o conteudo da proxima tag pode comecar.
+
+Exemplos de box-level e inline-level foram salvos nas imagens.
+
+

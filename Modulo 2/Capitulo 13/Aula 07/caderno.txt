@@ -1,0 +1,12 @@
+Para defnir a paleta de cores, o professor Guanabara foi em www.color.adobe.com e seguiu em: EXPLORAR > MAIS USADAS.
+
+Eu escolhi a seguinte paleta:
+#F1F3F9
+#FFC857
+#757DA9
+#3F4464
+#1F2232
+
+Lembrando que o conteudo nao deve ter o gradiente de fundo pois o conteudo sempre deve ter fundo branco e letra preta.
+
+Alem disso, podemos brincar com os tons das colres das pelatas que escolhermos. Para trabalhar MONOCROMIA, basta colocar o cursor na cor e arrastar para baixo e para cima para deixar a cor mas escura ou mais clara.

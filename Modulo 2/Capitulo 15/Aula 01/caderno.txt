@@ -1,0 +1,12 @@
+Vamos utilizar seletores personalizados quando queremos formatar dois elementos iguais (dois h2, por exemplo) com estilos diferentes.
+
+Seletores:
+
+id: #
+class: .
+
+Veja que no CSS:
+
+h1#principal >>> atinge um h1 que tem um id == principal
+#principal   >>> atinge todas as tags que tem a id == principal
+
