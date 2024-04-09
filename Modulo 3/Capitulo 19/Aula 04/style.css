@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+div.linha {
+    text-align: center;
+}
+
+div.bloco {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url("../imagens-cap19/wallpaper002.jpg");
+}
+
+div#q1 {
+    background-position: left top;
+}
+
+div#q2 {
+    background-position: center top;
+}
+
+div#q3 {
+    background-position: right top;
+}
+
+div#q4 {
+    background-position: left center;
+}
+
+div#q5 {
+    background-position: center center;
+}
+
+div#q6 {
+    background-position: right center;
+}
+
+div#q7 {
+    background-position: left bottom;
+}
+
+div#q8 {
+    background-position: center bottom;
+}
+
+div#q9 {
+    background-position: right bottom;
+}
