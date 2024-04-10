@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    background-image: url("../imagens-cap19/wallpaper002.jpg");
+    background-position: center center;
+    
+    /* O background-repeat recebe os valores no-repeat, repeat, repeat-x, repeat-y; */
+    background-repeat: no-repeat; 
+    
+    /* O background-size recebe os valores: auto, contain, 100%, cover */
+    /* O valor cover cobre todo o fundo, mas devemos definir o heigh antes */
+    /* Ao adicionar muito conteudo, a imagem, mesmo que com cover, nao consegue preencher toda a tela. Vamos corrigir isso na proxima aula. */
+    height: 100vh;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
