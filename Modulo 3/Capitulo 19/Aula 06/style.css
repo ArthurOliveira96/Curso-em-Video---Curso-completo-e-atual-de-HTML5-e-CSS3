@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Nesta aula vamos ver os vinculos do background: ele está vinculado ao conteúdo ou vai ficar travado na tela? */
+
+body {
+    background-color: black;
+    background-image: url("../imagens-cap19/wallpaper002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 97vh;
+    background-size: cover;
+
+    /* Aqui definimos o vinulo do background */
+    /* fixed: travado */
+    /* scroll: move com o conteudo */
+    background-attachment: fixed;
+
+    /* Shorthand background: color image position repeat [size] attachment */
+    background: black url("../imagens-cap19/wallpaper002.jpg") center center no-repeat fixed;
+    /* OBS: o background-size nao funcionou no shorhand, por isso colocamos separado */
+    background-size: cover; 
+
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
