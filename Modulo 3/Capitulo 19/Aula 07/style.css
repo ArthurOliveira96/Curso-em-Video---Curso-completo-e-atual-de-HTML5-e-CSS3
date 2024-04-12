@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#container {
+    height: 900px;
+    padding: 10px;
+    background-color: purple;
+    background-image: url("../imagens-cap19/target001.png");
+    background-size: 100% 100%;
+
+    /* Novidades da aula */
+    position: relative;
+}
+
+#conteudo {
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    background-color: yellow;
+    background-image: url("../imagens-cap19/target001.png");
+    background-size: 100% 100%;
+
+    /* Novidades da aula */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
