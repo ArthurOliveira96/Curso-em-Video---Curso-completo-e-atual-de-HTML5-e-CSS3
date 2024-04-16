@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+table {
+    width: 400px;
+    border: 2px solid blue; /* 2px para aparecer e se sobrepor ah borda do td */
+
+    /* Parametro para separacao das celulas, o padrao eh separate */
+    border-collapse: collapse;
+}
+
+tr.linha {
+    background-color: yellow;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td.dado {
+    background: red;
+}
