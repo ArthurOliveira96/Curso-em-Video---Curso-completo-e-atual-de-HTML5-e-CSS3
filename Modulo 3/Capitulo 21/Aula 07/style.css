@@ -6,6 +6,8 @@ body {
 
 table {
     width: 400px;
+    border-collapse: collapse;
+    position: relative;
 }
 
 caption {
@@ -27,6 +29,12 @@ td.num, th.num {
 thead, tfoot {
     background-color: rgb(56, 56, 56);
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(56, 56, 56);
 }
 
 /* Efeito zebrado */
