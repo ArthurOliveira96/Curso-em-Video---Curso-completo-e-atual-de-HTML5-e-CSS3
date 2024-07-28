@@ -1,0 +1,3 @@
+Escope de linhas ou colunas:
+
+- Quando temos uma linha ou uma coluna com expansao e essa expansao de fato abrange mais de uma linha ou mais de uma coluna, podemos colocar que o scope dessa linha ou coluna eh igual a rowgroup ou colgroup. Caso nao tenha essa abrangencia, entao seria apenas igual a row ou col.
