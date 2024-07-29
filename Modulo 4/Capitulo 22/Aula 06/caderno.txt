@@ -1,0 +1,10 @@
+- frame x iframe
+    Hoje nao se usa mais frames, mas os iframes ainda sao.
+
+- Nao use muitos iframes no mesmo site, pois o algoritmo de busca do google pode ter problemas ao ler o site e nao vai recomenda-lo nas buscas
+
+- Problemas de acessibilidade - softwares de leitores de tela para cegos tem problemas com o iframe
+
+- Usabilidade - o proprio site pode ter problemas com o iframe
+
+- Seguranca - os iframes podem abrir a porta do seu site pra outro site, portanto devemos tomar cuidado com qual site colocamos no nosso iframe
