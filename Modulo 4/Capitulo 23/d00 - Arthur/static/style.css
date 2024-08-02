@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    /* Setup background para cobrir todo o fundo independente do tamanho da tela */
+    background-color: black;
+    background-image: url("../../pacote-d013/pacote-d013/imagens/fundo-madeira.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+section#telefone {
+    /* Posicionamento no centro da tela */
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+
+    background-image: url("../../pacote-d013/pacote-d013/imagens/frame-iphone.png");
+    height: 627px;
+    width: 311px;
+}
+
+section > iframe {
+    /* Posicionamento */
+    position: absolute;
+    top: 80px;
+    left: 22px;
+
+    width: 267px;
+    height: 471px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais > a > img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+section#redes-sociais > a > img:hover {
+    transform: translate(-3px, -3px);
+    border:2px solid rgba(255, 255, 255, 0.629);
+    transition: transform .1s, border .1s;
+}
