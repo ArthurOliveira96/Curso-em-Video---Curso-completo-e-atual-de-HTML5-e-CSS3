@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento output em formulários HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Soma</legend>
+            <p>
+                <label for="in1">Numero 1:</label>
+                <input type="number" name="n1" id="in1" oninput="calcsoma()">
+            </p>
+            <p>
+                <label for="in2">Numero 2:</label>
+                <input type="number" name="n2" id="in2" oninput="calcsoma()">
+            </p>
+            <p>
+                <label for="isoma">Soma:</label>
+                <output id="isoma" name="soma">0</output>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Range</legend>
+            <p>
+                <label for="inum">Range:</label>
+                <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="showrange()">
+            </p>
+            <p>
+                <label for="ival">Numero:</label>
+                <output id="ival">5</output>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Idade</legend>
+            <p>
+                <label for="iano">Ano de nascimento: </label>
+                <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="calcidade()">
+            </p>
+            <p>
+                <label for="iidade">Idade:</label>
+                <output id="iidade">---</output>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
