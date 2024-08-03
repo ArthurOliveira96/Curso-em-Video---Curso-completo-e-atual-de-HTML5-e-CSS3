@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando caixas de texto e de senha</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <!-- required => parametro para indicar se o campo eh obrigatorio para a submissao do formulario -->
+    <!-- minlenght / maxlenght => parametro utilizado para delimitar a quantidade de caracteres para colocar no input box -->
+    <!-- size: 10 => parametro para setar o input box com tamanho para 10 caracteres -->
+    <!-- placeholder="User" => preenchimento default do input box -->
+    <!-- autocomplete => quando colocamos autocomplete na tag form, definimos se o formulario inteiro tera autocomplete. Se deixarmos autocomplete = "on", entao podemos colocar um autocomplete dentro das tags input para definir qual o tipo de autocomplete cada tag input deve ter -->
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuario:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="User" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="5" maxlength="15" size="10" placeholder="Password" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
