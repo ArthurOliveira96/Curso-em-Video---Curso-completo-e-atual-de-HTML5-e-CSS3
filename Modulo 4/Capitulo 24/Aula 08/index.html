@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radio button em HTML</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <!-- input:radio => conseguimos fazer uma selecao exclusiva de somente 1 item colocando todos os radio inputs com o mesmo nome -->
+            <!-- checked => inicializar pagina com a opcao ativiada -->
+            <!-- value="M" => define o valor que o formulario envia -->
+            <input type="radio" name="sx" id="isxmas" value="M" checked><label for="isxmax"> Masculino</label>
+            <input type="radio" name="sx" id="isxfem" value="F"><label for="isxfem"> Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <!-- input:checkbox => podemos selecionar mais de um item do mesmo grupo -->
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas"> Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut"> Futebol</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat"> Natacao</label><br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten"> Tenis</label><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
