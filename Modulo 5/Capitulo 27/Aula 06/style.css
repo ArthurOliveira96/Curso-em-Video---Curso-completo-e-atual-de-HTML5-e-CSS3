@@ -1,0 +1,42 @@
+/*
+
+justify-content -> alinhamento dos filhos flexbox ao longo do main-axis
+align-items -> alinhamento dos filhos flexbox ao longo do cross-axis
+align-content -> alinhamento dos filhos ao longo do eixo transversal quanto eles estao empacotados (wrapped)
+
+default => align-content: stretch
+
+Portanto, o align content só tem efeito quando o main-axis é pequeno o suficiente para ter quebra de linha. E se, neste caso, o cross-axis tiver tamanho suficiente para varias linhas serem quebradas, o align-items vai determinar como os filhos devem ficar alinhados ao longo do cross-axis (flex-end, flex-start, center, space-between, space-around, space-evenly).
+
+Para ver os efeitos do align-content nestes arquivos, precisamos inpecionar a pagina HTML e reduzir a largura da tela para que o conteudo do container pai quebre.
+
+Pelos meus testes:
+    - Se flex-wrap: wrap, entao devemos usar align-content
+    - Se flex-wrap: nowrap, entao devemos usar align-items
+
+Veja que se flex-wrap: wrap o align-items ainda deve funcionar, mas o align-content vai se sobrepor ao align-items se configurado. 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    background-color: darkred;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: flex-end; */
+    align-content: center;
+}
+
+div.item {
+    background-color: darkgray;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+}
