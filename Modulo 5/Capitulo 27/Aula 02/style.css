@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    border: 1px solid black;
+}
+
+.container {
+    background-color: darkred;
+    padding: 10px;
+
+    display: flex;
+
+    /* 
+    Todo container flexbox tem uma flex-direction definida. Essa direcao define 2 eixos que usamos como base para saber como alinhar os itens internamente na flexbox.
+
+    Os eixos sao:display:
+        - main-axis (main-start -> main-end)
+        - cross-axis (cross-start => cross-end)
+
+    Os valores que podemos colocar em flex-direction sao:
+        flex-direction: row | row-reversed | column | column-reversed 
+    
+    De acordo com a flex-direction do container pai, o main-axis e o cross-axis apontam para direcoes diferentes. Por exemplor, se flex-direction:row, o main-axis vai da direita para a esquera e o cross-axis vai de cima para baixo.
+
+    Na imagem (flex axis) temos todas as situacoes listadas.
+    */
+    flex-direction: row;
+}
+
+.item {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
