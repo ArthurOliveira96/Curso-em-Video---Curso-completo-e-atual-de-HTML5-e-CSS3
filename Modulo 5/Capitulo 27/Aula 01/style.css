@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: salmon;
+}
+
+.container {
+    display: flex;
+    background-color: lightblue;
+}
+
+.item {
+    flex-grow: 1;
+    border: 2px solid black;
+    text-align: center;
+}
