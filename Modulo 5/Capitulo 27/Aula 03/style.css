@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    border: 1px solid black;
+}
+
+.container {
+    background-color: darkred;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    /*
+    Com flex-wrap definimos como o os itens flexbox devem se comportar de acordor com a variacao de tamanho do container flexbox.
+
+    flex-wrap: wrap | nowrap | wrap-reverse;
+
+    Se flex-wrap: nowrap, entao quando o container pai diminuir, os itens flexbox vao encolnher ate onde o conteudo desses itens permitirem.
+
+    Se flex-wrap: wrap, entao quando o container pai diminuir, os itens flexbox vao quebrar seguindo a direcao do eixo-transversal (cross-axis).
+
+    Se flex-wrap: wrap-reverse, entao quando o container pai diminuir, os itens flexbox vao quebrar seguindo a direcao contraria do eixo-transversal (cross-axis).
+    */
+    flex-wrap: wrap-reverse;
+
+    /* shorthand => flex-flow: flex-direction + flex-wrap */
+}
+
+.item {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+    /* Quando no container pai temos flex-wrap: wrap e nos containers filhos temos flex:auto, o flexbox nao permitem que fiquem espacos em branco entre os elementos filho e, portanto, na medida que os itens vao quebrando, eles vao preenchendo o maximos da tela possivel. */
+    flex: auto;
+}
