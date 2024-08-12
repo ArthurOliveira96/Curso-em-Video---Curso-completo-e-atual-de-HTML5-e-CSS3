@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: darkred;
+    padding: 10px;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    /* justify-content => alinhamento dos filhos ao longo do main-axis */
+    justify-content: space-evenly;
+
+    /* 
+    align-items => alinhamento dos filhos ao longo do cross-axis
+    
+    IMPORTANTE: por padrao temos que align-items: strech, fazendo com que os elementos filhos crescem ao longo do cross-axis ate o final do container pai. Basta mudar este valor para que os elementos filho retornem ao seu tamanho padrao.
+    */
+    align-items: center; /* stretch; */
+}
+
+.item {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
