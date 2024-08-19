@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+div.container {
+    height: 400px;
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Reordena itens flex */
+div.item:nth-child(1) {
+    order: 10;
+}
+
+div.item:nth-child(3) {
+    order: -1;
+}
+
+div.item:nth-child(6) {
+    order: -2;
+}
+
+/* 
+align-self: auto | flex-start | flex-end | center | strech
+
+O align-self eh aplicado no item (e nao no pai, como viemos fazendo ate aqui). Ele faz alinhamento apenas do ITEM que receber a estilizacao ao longo do cross-axis.
+
+auto: herda o align do item pai
+*/
+div.item:nth-child(2) {
+    align-self: center;
+}
+
+div.item:nth-child(5) {
+    align-self: stretch;
+}
+
+div.item:nth-child(8) {
+    align-self: flex-end;
+}
