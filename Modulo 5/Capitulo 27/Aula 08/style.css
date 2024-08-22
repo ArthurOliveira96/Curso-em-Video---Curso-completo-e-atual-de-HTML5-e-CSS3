@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: darkcyan;
+}
+
+div.container {
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: red;
+    border: 2px solid black;
+    font-size: 2em;
+    text-align: center;
+
+    /*
+    flex-basis -> define tamanha maximo de um flex item ao longo do eixo principal
+    flex-basis: auto -> o tamanho maximo do flex item depende do conteudo
+    flex-basis: 300px -> o tamanho maximo do flex item eh de 300px, mas se nao houver espaco para o item, ele ainda eh capaz de diminuir (para impedir isso, devemos usar o flex-shrink). E se o conteudo do item pedir mais do que 300px, entao o item vai se expandir, i.e, um texto ira quebrar para a prox linha para nao ultrapassar o limite de 300px, mas um numero (nao quebra) ira ultrapassar esse limite.
+    */
+    flex-basis: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
