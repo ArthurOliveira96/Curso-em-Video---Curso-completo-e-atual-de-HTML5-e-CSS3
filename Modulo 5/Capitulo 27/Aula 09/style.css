@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+div.container {
+    background-color: darkcyan;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    font-size: 2em;
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 100px;  /* tamanho maximo de 100px */
+}
+
+div#i2 {
+    /*
+    flex-shrink: 0 | 1 | 2 ....
+    flex-shrink: propriedade para definir se o elemento pode ou nao encolher. Se flex-shrink: 0 entao o flex item nao pode encolher. Se flex-shrink: 1 | 2 | 3 etc entao o flex item pode encolher. Os valores maiores que um sao proporcionais, ou seja, so fazem sentido quando ha mais de um flex item com flex-shrink != 0. Quando um flex item tem flex-shrink: 1 e outro tem flex-shrink: 2 entao o segundo encolhe 2x mais rapido que o primeiro.
+    */
+    flex-shrink: 0;
+    background-color: black;
+}
+
+/* A div#i4 encolhe 2x mais que a div#i3 */
+div#i3 {
+    /* 
+    flex-grow: 0 | 1 | 2 ....
+    */
+    flex-shrink: 1;
+}
+
+div#i4 {
+    flex-shrink: 2;
+}
+
+/* A div#i6 cresce 2x mais que a div#i5 */
+div#i5 {
+    /* 
+    flex-grow: 0 | 1 | 2 ....
+    flex-grow: propriedade para definir se o elemento pode ou nao crescer. Se flex-grow: 0, entao nao pode encolher. Se flex-grow: 1 | 2 | 3 etc entao o flex item pode crescer. Da mesma forma que o flex-shrink, valores positivos de flex-grow apenas funcionam de forma relativa para dois ou mais itens flex crescerem proporcionalmente em relacao ao outro.
+    */
+    flex-grow: 1;
+}
+
+div#i6 {
+    flex-grow: 2;
+}
