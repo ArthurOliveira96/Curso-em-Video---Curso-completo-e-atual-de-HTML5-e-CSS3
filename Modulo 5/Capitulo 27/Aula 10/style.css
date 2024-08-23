@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+div.container {
+    background: darkcyan;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 3em;
+}
+
+/*
+
+flex: shorthand
+flex: flex-grow flex-shkink flex-basis
+
+Default
+flex: 0 1 auto
+flex: initial
+
+Nao flexivel
+flex: 0 0 auto
+flex: none
+
+Mais flexivel possivel
+flex: 1 1 auto
+flex: auto
+
+Apenas flex grow
+flex: 3
+flex: 3 1 auto
+
+*/
+div.item:nth-child(1) {
+    flex: 0 1 150px
+}
+
+div.item:nth-child(2) {
+    flex: 2 0 150px;
+}
+
+div.item:nth-child(3) {
+    flex: 1 2 150px;
+}
